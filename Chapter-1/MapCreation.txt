@@ -1,0 +1,93 @@
+Task-1 : Map Creation: Think of a real-world system, like a library or a shopping mall. How would 
+you model it using OOP concepts? What are the objects, their attributes, and behaviors? How do they
+interact?
+
+
+Encapsulation 
+	As the library manager, you use encapsulation to hide the specific details of each book 
+(like ISBN and author) and provide controlled access for visitors to borrow and return books, 
+ensuring data privacy and security.
+Objects:
+	1 . Book 
+			Attributes :
+				1. Title
+				2. author
+				3. ISBN
+			Behaviour :
+				1 . Borrow Book
+				2 . Return Book
+
+	2 . library
+			Attributes :
+				1 . books
+				2 . Members
+			Behaviour :
+				1 . Add Book
+				2 . Remove Book
+				3 . Search Book
+
+	3 . Members
+			Attributes :
+				1 . Name
+				2 . MemberID/Roll Number
+			Behaviour :
+
+Inheritance
+	we can establish a common superclass for books to handle shared attributes and behaviors among 
+all book types. This allows for more specialized book types to inherit these common properties and 
+add their own unique attributes and methods. 
+Super Class :
+	Attributes :
+		Title
+		author
+		ISBN
+	Behaviour :
+		Borrow Book
+		Return book
+Sub Class :
+	Attributes :
+		
+	Behaviour :
+		
+
+Polymorphism
+	Polymorphism allows us to interact with different types of library items (e.g., books and DVDs) 
+through a common interface, simplifying the management of diverse items within the library system.
+Objects : 
+	1 . Library Item (Common Interface):
+			Attributes :
+				1 . Title
+				2 . Item
+			Behaviour :
+				1 . Get Information(provide item details)
+				2 . Check Out(used for borrowing)
+				3 . Return(used for returning)
+	2 . Book (Implements LibraryItem Interface)
+			Attributes : 
+				1 . author
+				2 . ISBN
+			Behaviour : 
+				Implement Library Item methods for Check Out, Return, and Get Information.	
+
+Abstraction
+	In the library, you will find all sorts of books, but you don't need to worry about how they were 
+made or who brought them. The library is a place to read and learn, not a store where you buy books.
+Objects : 
+	1 . Library Book
+		Attributes :
+			1. Title
+			2. author
+		Behaviour :
+			1. Borrow
+			2. Return
+	2 . Library Member
+		Attributes :
+			1 . Name
+			2 . Member
+		Behaviour :
+			1. Borrow Book
+			2. Return Book
+
+
+
+

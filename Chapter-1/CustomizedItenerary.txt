@@ -1,0 +1,29 @@
+4. Customized Itinerary: Design a travel itinerary for a friend who has different preferences than
+you. How would you ensure that your base plan (OOP) can be adapted to fit their needs 
+(Design Principles)?
+
+OOPs Concepts :
+    Encapsulation : 
+        Ensure the safety of important documents, such as passports, by keeping them secure and 
+    private within a bag.
+    Inheritance: 
+        Share valuable travel tips and advice gathered from different sources (friends) with your 
+    friend, helping them prepare for their trip.
+    Polymorphism :
+        Ask various people for travel recommendations, highlighting that different sources may 
+    provide information in "many forms" while ensuring your friend receives consistent and crucial 
+    details.
+    Abstraction :
+        Focus on providing only the essential travel information your friend needs, like visa 
+    requirements, without overwhelming them with unnecessary details.
+Design Principles :
+    Single Responsibility Principle: 
+        Imagine you're packing for a trip. You have one bag for clothes, another for important documents, and a separate one for toiletries. Each bag has a single responsibility, making it easier to manage.
+    Open/Closed Principle:
+        Think of your travel itinerary like a checklist. You can keep adding new items (like activities or places to visit) to the list without erasing the existing ones. It's open to additions but closed to changing what's already planned.
+    Liskov Substitution Principle: 
+        If you initially planned to visit museums, but your friend prefers hiking, you can swap one for the other without rewriting your entire itinerary. It's like substituting one plan for another without breaking the overall structure.
+    Interface Segregation Principle:
+        Think of your travel plan as a menu. Each section of the menu (e.g., breakfast, lunch, dinner) only lists items relevant to that meal. It avoids listing every dish all at once, making it easier to order what you want.
+    Dependency Inversion Principle:
+        Instead of planning your entire trip around specific details like visa requirements, create a general travel information hub. Both your high-level trip plan and specific details (like visa info) depend on this hub. It's like a central information point that keeps things flexible.

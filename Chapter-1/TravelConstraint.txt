@@ -1,0 +1,37 @@
+3 . Travel Constraints: Consider restrictions or rules you might encounter on your journey, like 
+luggage weight limits or visa requirements. How would these constraints translate to software design
+principles?
+
+Choosing the Right Travel Gear (Single Responsibility Principle)
+Luggage Weight Limits and Single Responsibility Principle:
+    you have to make sure your luggage doesn't get too heavy when traveling, in software, we should 
+ensure that a component doesn't become overloaded with too many tasks or responsibilities. When a 
+software component tries to do too much, it becomes hard to understand and maintain, just like 
+carrying heavy luggage can be a burden. So, in software, we aim to keep components lightweight and 
+focused on doing one specific job really well."
+
+Dynamic Travel Plans (Open/Closed Principle)
+Visa Requirements and Open/Closed Principle:
+    Visa rules and the Open/Closed Principle are similar because they both prefer not to change things
+    once they're set. Just as you can add extra activities to your trip without changing your visa, 
+    in software, we can add new features without messing up the old ones.
+
+Consistent Hotel Experience (Liskov Substitution Principle)
+Consistent Standards and Liskov Substitution Principle:
+    When you stay at different hotels, you expect certain basic standards to be consistent, like a 
+    clean room and a comfortable bed. Similarly, in software, we want different parts of a program to 
+    follow the same rules so that they work well together. This is like making sure all hotels provide
+    a consistent level of service.
+
+Streamlined Decision Making (Interface Segregation Principle)
+Specialized Resources and Interface Segregation Principle:
+    When you plan your trips, you pick guides that match your interests, like hiking or food. In 
+    software, we do something similar by making sure each part only uses what it needs. It's like 
+    choosing the right tools for the job, whether for travel or programming.
+
+Prioritizing Interests (Dependency Inversion Principle)
+Prioritizing Interests and Dependency Inversion Principle:
+    When you plan your trips based on what you like, it's like the Dependency Inversion Principle 
+    in software. It means we want flexibility and adaptability. In software, this means both 
+    important and less important parts should be able to change easily, just like you change your 
+    travel plans based on your interests.

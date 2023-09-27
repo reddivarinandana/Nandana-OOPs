@@ -2,6 +2,7 @@ Task-1 : Map Creation: Think of a real-world system, like a library or a shoppin
 you model it using OOP concepts? What are the objects, their attributes, and behaviors? How do they
 interact?
 
+
 Encapsulation 
 	As the library manager, you use encapsulation to hide the specific details of each book 
 (like ISBN and author) and provide controlled access for visitors to borrow and return books, 

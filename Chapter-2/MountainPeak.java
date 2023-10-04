@@ -9,14 +9,10 @@ public class MountainPeak{
         this.altitude = altitude;
     }
 
-    //Getter Method
-    public String getPeakName() {
-        return peakName;
-    }
-
-    //Getter Method
-    public int getAltitude() {
-        return altitude;
+    //Method to display attributes
+    public void displayAttributes(){
+        System.out.println("PeakName : " + peakName);
+        System.out.println("altitude : " + altitude);
     }
 
     public static void main(String[] args){
@@ -24,9 +20,8 @@ public class MountainPeak{
         // Create an object of the MountainPeak class
         MountainPeak everest = new MountainPeak("Mount Everest", 20);
 
-        // Display the attributes of the MountainPeak object
-        System.out.println(everest.getPeakName());
-        System.out.println(everest.getAltitude());
+        // Display the attributes of the object
+        everest.displayAttributes();
 
     }
 }

@@ -1,3 +1,6 @@
+//Exploring Multiple Interfaces:
+//Define another interface named Trekable with a method trekDifficulty(). Make the MountainPeak 
+//class implement this interface and provide an appropriate implementation.
 interface Trekable{
     void trekDifficulty();
 }
